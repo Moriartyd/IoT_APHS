@@ -11,7 +11,7 @@ password="1234"
 topic="test"
 
 def on_connect(client, userdata, flags, rc):
-    if rc==0
+    if rc == 0:
         print("Client is connected")
         global connected
         connected=True
